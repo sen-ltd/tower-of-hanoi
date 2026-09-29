@@ -1,0 +1,23 @@
+{
+  "name": "tower-of-hanoi",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "Tower of Hanoi with 3, 4 or 5 pegs and every position's exact distance, plus Korf's 4-peg radius anomaly (588 states at 130 moves for 15 disks) recomputed. TypeScript, with the large searches in C.",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview",
+    "serve": "vite preview --port 4173",
+    "test": "vitest run",
+    "literature": "node tools/fetch-literature.mts",
+    "stats": "node tools/stats.mts"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.1",
+    "typescript": "^5.6.3",
+    "vite": "^5.4.11",
+    "vitest": "^2.1.5"
+  },
+  "license": "MIT"
+}

@@ -1,0 +1,75 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tower of Hanoi — 3, 4 or 5 pegs, every position's exact distance, and Korf's 588</title>
+    <meta
+      name="description"
+      content="Tower of Hanoi with 3, 4 or 5 pegs. Your tab searches every position and shows the exact number of moves left from any of them. With 4 pegs and 15 disks, 588 positions are 130 moves from a full tower although moving the tower takes only 129 — Korf's 2004 anomaly, recomputed here with his tables and every Wikipedia and OEIS value."
+    />
+    <link
+      rel="icon"
+      href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%2314161a'/%3E%3Crect x='15' y='5' width='2' height='22' fill='%239aa1ad'/%3E%3Crect x='11' y='12' width='10' height='4' rx='2' fill='%236cc3f0'/%3E%3Crect x='8' y='17' width='16' height='4' rx='2' fill='%23f2d43b'/%3E%3Crect x='5' y='22' width='22' height='4' rx='2' fill='%23ef6b7b'/%3E%3C/svg%3E"
+    />
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <h1>Tower of Hanoi <span>3, 4 or 5 pegs</span></h1>
+        <p class="sub">
+          Click a peg to lift its top disk, then click where it goes. Every position shows exactly how many moves are
+          still needed to stack all disks on the <strong>goal peg</strong>, and a lifted disk shows what each drop
+          would leave — because your tab has just searched <strong id="subStates">every position</strong>.
+          With four pegs this is the only way to know: the Frame–Stewart strategy was proved optimal only in 2014,
+          and the positions farthest from a full tower are not always the tower on another peg.
+        </p>
+      </header>
+
+      <div id="wrap">
+        <div class="stage">
+          <div class="controls">
+            <label class="sel">pegs
+              <select id="pegsSel">
+                <option value="3">3</option>
+                <option value="4" selected>4</option>
+                <option value="5">5</option>
+              </select>
+            </label>
+            <label class="sel">disks
+              <select id="disksSel"></select>
+            </label>
+            <label class="sel">goal peg
+              <select id="goalSel"></select>
+            </label>
+            <button id="random">Random</button>
+            <button id="farthest">Farthest</button>
+            <button id="hint">Hint</button>
+            <button id="solve" class="primary">Solve</button>
+            <button id="undo">Undo</button>
+            <button id="reset">Reset</button>
+          </div>
+          <div id="board" role="group" aria-label="pegs"></div>
+          <div id="status" aria-live="polite"></div>
+        </div>
+        <div class="side">
+          <h3>moves still needed</h3>
+          <div class="panel" id="dist"></div>
+          <h3>how far every position is from the goal</h3>
+          <div class="panel" id="hist"></div>
+        </div>
+      </div>
+
+      <section class="notes" id="notes"></section>
+
+      <footer>
+        <p>
+          Built by <a href="https://sen.ltd/">SEN LLC</a>. TypeScript in the browser, C for the searches up to
+          17 disks. <a href="https://github.com/sen-ltd/tower-of-hanoi">Source</a>.
+        </p>
+      </footer>
+    </main>
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

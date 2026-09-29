@@ -1,0 +1,1318 @@
+{
+ "generated": "2026-09-29",
+ "summary": {
+  "total": 78,
+  "ok": 76,
+  "failing": [
+   "ja-bitwise",
+   "korf-t3-1"
+  ]
+ },
+ "expected": [
+  "ja-bitwise",
+  "korf-t3-1"
+ ],
+ "unexpected": [],
+ "korfQuote": "We have no explanation for this surprising anomaly, and leave it for future work.",
+ "korf": {
+  "rows": [
+   {
+    "disks": 1,
+    "optimal": 1,
+    "frameStewart": 1,
+    "radius": 1,
+    "farthest": 3,
+    "beyond": 0,
+    "width": 3,
+    "table2": true,
+    "halfStates": 2,
+    "halfWidth": 1,
+    "table3": false
+   },
+   {
+    "disks": 2,
+    "optimal": 3,
+    "frameStewart": 3,
+    "radius": 3,
+    "farthest": 6,
+    "beyond": 0,
+    "width": 6,
+    "table2": true,
+    "halfStates": 3,
+    "halfWidth": 1,
+    "table3": true
+   },
+   {
+    "disks": 3,
+    "optimal": 5,
+    "frameStewart": 5,
+    "radius": 5,
+    "farthest": 12,
+    "beyond": 0,
+    "width": 30,
+    "table2": true,
+    "halfStates": 6,
+    "halfWidth": 3,
+    "table3": true
+   },
+   {
+    "disks": 4,
+    "optimal": 9,
+    "frameStewart": 9,
+    "radius": 9,
+    "farthest": 6,
+    "beyond": 0,
+    "width": 72,
+    "table2": true,
+    "halfStates": 18,
+    "halfWidth": 7,
+    "table3": true
+   },
+   {
+    "disks": 5,
+    "optimal": 13,
+    "frameStewart": 13,
+    "radius": 13,
+    "farthest": 6,
+    "beyond": 0,
+    "width": 282,
+    "table2": true,
+    "halfStates": 45,
+    "halfWidth": 16,
+    "table3": true
+   },
+   {
+    "disks": 6,
+    "optimal": 17,
+    "frameStewart": 17,
+    "radius": 17,
+    "farthest": 6,
+    "beyond": 0,
+    "width": 918,
+    "table2": true,
+    "halfStates": 105,
+    "halfWidth": 36,
+    "table3": true
+   },
+   {
+    "disks": 7,
+    "optimal": 25,
+    "frameStewart": 25,
+    "radius": 25,
+    "farthest": 6,
+    "beyond": 0,
+    "width": 2568,
+    "table2": true,
+    "halfStates": 434,
+    "halfWidth": 137,
+    "table3": true
+   },
+   {
+    "disks": 8,
+    "optimal": 33,
+    "frameStewart": 33,
+    "radius": 33,
+    "farthest": 6,
+    "beyond": 0,
+    "width": 9060,
+    "table2": true,
+    "halfStates": 1244,
+    "halfWidth": 293,
+    "table3": true
+   },
+   {
+    "disks": 9,
+    "optimal": 41,
+    "frameStewart": 41,
+    "radius": 41,
+    "farthest": 6,
+    "beyond": 0,
+    "width": 31638,
+    "table2": true,
+    "halfStates": 3335,
+    "halfWidth": 562,
+    "table3": true
+   },
+   {
+    "disks": 10,
+    "optimal": 49,
+    "frameStewart": 49,
+    "radius": 49,
+    "farthest": 12,
+    "beyond": 0,
+    "width": 109890,
+    "table2": true,
+    "halfStates": 8469,
+    "halfWidth": 1780,
+    "table3": true
+   },
+   {
+    "disks": 11,
+    "optimal": 65,
+    "frameStewart": 65,
+    "radius": 65,
+    "farthest": 6,
+    "beyond": 0,
+    "width": 335292,
+    "table2": true,
+    "halfStates": 39631,
+    "halfWidth": 6640,
+    "table3": true
+   },
+   {
+    "disks": 12,
+    "optimal": 81,
+    "frameStewart": 81,
+    "radius": 81,
+    "farthest": 6,
+    "beyond": 0,
+    "width": 1174230,
+    "table2": true,
+    "halfStates": 139624,
+    "halfWidth": 21187,
+    "table3": true
+   },
+   {
+    "disks": 13,
+    "optimal": 97,
+    "frameStewart": 97,
+    "radius": 97,
+    "farthest": 6,
+    "beyond": 0,
+    "width": 4145196,
+    "table2": true,
+    "halfStates": 371053,
+    "halfWidth": 50777,
+    "table3": true
+   },
+   {
+    "disks": 14,
+    "optimal": 113,
+    "frameStewart": 113,
+    "radius": 113,
+    "farthest": 6,
+    "beyond": 0,
+    "width": 14368482,
+    "table2": true,
+    "halfStates": 933286,
+    "halfWidth": 86944,
+    "table3": true
+   },
+   {
+    "disks": 15,
+    "optimal": 129,
+    "frameStewart": 129,
+    "radius": 130,
+    "farthest": 588,
+    "beyond": 588,
+    "width": 48286104,
+    "table2": true,
+    "halfStates": 2407813,
+    "halfWidth": 256579,
+    "table3": true
+   },
+   {
+    "disks": 16,
+    "optimal": 161,
+    "frameStewart": 161,
+    "radius": 161,
+    "farthest": 6,
+    "beyond": 0,
+    "width": 162989898,
+    "table2": true,
+    "halfStates": 11682622,
+    "halfWidth": 965931,
+    "table3": true
+   },
+   {
+    "disks": 17,
+    "optimal": 193,
+    "frameStewart": 193,
+    "radius": 193,
+    "farthest": 6,
+    "beyond": 0,
+    "width": 572584122,
+    "table2": true,
+    "halfStates": 45800496,
+    "halfWidth": 3278853,
+    "table3": true
+   }
+  ],
+  "anomaly15": {
+   "optimal": 129,
+   "radius": 130,
+   "farthest": 588,
+   "orbits": 98
+  },
+  "layers15": [
+   1,
+   3,
+   6,
+   12,
+   30,
+   30,
+   66,
+   96,
+   126,
+   210,
+   330,
+   318,
+   462,
+   816,
+   1032,
+   936,
+   1044,
+   1752,
+   2610,
+   3036,
+   3528,
+   3306,
+   4578,
+   6318,
+   9108,
+   10674,
+   11580,
+   11844,
+   13374,
+   17124,
+   23664,
+   32184,
+   36984,
+   39822,
+   38544,
+   39936,
+   45936,
+   57990,
+   77262,
+   96366,
+   116052,
+   127092,
+   122142,
+   112086,
+   116814,
+   135078,
+   157326,
+   192498,
+   246468,
+   304650,
+   354018,
+   388128,
+   415206,
+   427710,
+   411804,
+   402504,
+   451236,
+   521094,
+   600684,
+   714750,
+   883602,
+   1064970,
+   1228656,
+   1349322,
+   1464336,
+   1539426,
+   1565634,
+   1554408,
+   1610640,
+   1703436,
+   1890282,
+   2144742,
+   2533656,
+   2988834,
+   3506376,
+   4017900,
+   4551204,
+   4999416,
+   5378250,
+   5623770,
+   5778096,
+   5794854,
+   5857548,
+   6013830,
+   6447246,
+   7083090,
+   7996716,
+   9098874,
+   10427406,
+   11910474,
+   13425906,
+   14737326,
+   16037838,
+   17479332,
+   18722418,
+   19575960,
+   19698156,
+   19444674,
+   19073910,
+   19121844,
+   19997718,
+   21572748,
+   23565924,
+   25712250,
+   28072512,
+   30699948,
+   33556728,
+   36607710,
+   40198800,
+   44015406,
+   46917090,
+   48286104,
+   47603928,
+   45293190,
+   41851092,
+   39145560,
+   37450050,
+   35214852,
+   31482732,
+   25970292,
+   19805604,
+   13966302,
+   9330078,
+   6246828,
+   4192584,
+   2691024,
+   1388184,
+   527910,
+   125454,
+   17898,
+   588
+  ],
+  "farthest15": [
+   "313211331103211",
+   "331211331103211",
+   "231211331103211",
+   "201211331103211",
+   "331011331103211",
+   "011011331103211",
+   "311301331103211",
+   "331101331103211",
+   "231101331103211",
+   "330101331103211",
+   "233013131103211",
+   "212311131103211",
+   "202311131103211",
+   "221311131103211",
+   "101311131103211",
+   "313211131103211",
+   "303211131103211",
+   "331211131103211",
+   "101211131103211",
+   "223131301103211",
+   "323031301103211",
+   "223031301103211",
+   "123031301103211",
+   "220031301103211",
+   "333033101103211",
+   "322321330103211",
+   "122321330103211",
+   "022321330103211",
+   "212321330103211",
+   "221321330103211",
+   "122121330103211",
+   "212121330103211",
+   "122230330103211",
+   "322320330103211",
+   "122320330103211",
+   "022320330103211",
+   "322020330103211",
+   "122020330103211",
+   "022020330103211",
+   "202020330103211",
+   "002020330103211",
+   "322200330103211",
+   "122200330103211",
+   "022200330103211",
+   "202200330103211",
+   "002200330103211",
+   "220200330103211",
+   "020200330103211",
+   "122203030103211",
+   "022231331013201",
+   "322321331013201",
+   "122321331013201",
+   "022321331013201",
+   "322121331013201",
+   "122121331013201",
+   "022121331013201",
+   "212121331013201",
+   "112121331013201",
+   "322211331013201",
+   "122211331013201",
+   "022211331013201",
+   "212211331013201",
+   "112211331013201",
+   "221211331013201",
+   "121211331013201",
+   "322320331013201",
+   "122320331013201",
+   "022320331013201",
+   "202320331013201",
+   "220320331013201",
+   "022020331013201",
+   "202020331013201",
+   "022213131013201",
+   "300310330013201",
+   "331010330013201",
+   "330010330013201",
+   "230010330013201",
+   "303200330013201",
+   "330200330013201",
+   "230200330013201",
+   "210200330013201",
+   "330100330013201",
+   "100100330013201",
+   "233103030013201",
+   "212300030013201",
+   "202300030013201",
+   "220300030013201",
+   "010300030013201",
+   "313200030013201",
+   "303200030013201",
+   "330200030013201",
+   "010200030013201",
+   "323130310013201",
+   "223130310013201",
+   "023130310013201",
+   "221130310013201",
+   "223030310013201",
+   "333133010013201"
+  ],
+  "patterns15": {
+   "1023": 49,
+   "1123": 49
+  },
+  "bigDiskAway15": true,
+  "farShape": [
+   {
+    "disks": 1,
+    "count": 3,
+    "perfect": 3,
+    "bigDiskAway": 3
+   },
+   {
+    "disks": 2,
+    "count": 6,
+    "perfect": 3,
+    "bigDiskAway": 6
+   },
+   {
+    "disks": 3,
+    "count": 12,
+    "perfect": 3,
+    "bigDiskAway": 12
+   },
+   {
+    "disks": 4,
+    "count": 6,
+    "perfect": 3,
+    "bigDiskAway": 6
+   },
+   {
+    "disks": 5,
+    "count": 6,
+    "perfect": 3,
+    "bigDiskAway": 6
+   },
+   {
+    "disks": 6,
+    "count": 6,
+    "perfect": 3,
+    "bigDiskAway": 6
+   },
+   {
+    "disks": 7,
+    "count": 6,
+    "perfect": 3,
+    "bigDiskAway": 6
+   },
+   {
+    "disks": 8,
+    "count": 6,
+    "perfect": 3,
+    "bigDiskAway": 6
+   },
+   {
+    "disks": 9,
+    "count": 6,
+    "perfect": 3,
+    "bigDiskAway": 6
+   },
+   {
+    "disks": 10,
+    "count": 12,
+    "perfect": 3,
+    "bigDiskAway": 12
+   },
+   {
+    "disks": 11,
+    "count": 6,
+    "perfect": 3,
+    "bigDiskAway": 6
+   },
+   {
+    "disks": 12,
+    "count": 6,
+    "perfect": 3,
+    "bigDiskAway": 6
+   },
+   {
+    "disks": 13,
+    "count": 6,
+    "perfect": 3,
+    "bigDiskAway": 6
+   },
+   {
+    "disks": 14,
+    "count": 6,
+    "perfect": 3,
+    "bigDiskAway": 6
+   },
+   {
+    "disks": 15,
+    "count": 588,
+    "perfect": 0,
+    "bigDiskAway": 588
+   },
+   {
+    "disks": 16,
+    "count": 6,
+    "perfect": 3,
+    "bigDiskAway": 6
+   },
+   {
+    "disks": 17,
+    "count": 6,
+    "perfect": 3,
+    "bigDiskAway": 6
+   }
+  ],
+  "split": {
+   "statesWithBigDiskAway": 268435456,
+   "tight": 268435456,
+   "loose": 0,
+   "looseBy": [],
+   "analysed": 196,
+   "allOnceOptimal": true,
+   "exact": [
+    130
+   ],
+   "nearestGatewayToHome": 64,
+   "nearestGateways": 2,
+   "nearDistances": [
+    65,
+    66
+   ],
+   "nearHist": {
+    "65": 184,
+    "66": 12
+   },
+   "examples": [
+    {
+     "state": "333133010013201",
+     "splits": [
+      "50+1+79(x2)",
+      "52+1+77(x1)",
+      "65+1+64(x1)"
+     ]
+    },
+    {
+     "state": "223030310013201",
+     "splits": [
+      "42+1+87(x1)",
+      "48+1+81(x1)",
+      "50+1+79(x1)",
+      "65+1+64(x1)"
+     ]
+    },
+    {
+     "state": "221130310013201",
+     "splits": [
+      "42+1+87(x1)",
+      "45+1+84(x1)",
+      "48+1+81(x1)",
+      "50+1+79(x1)",
+      "65+1+64(x1)"
+     ]
+    },
+    {
+     "state": "023130310013201",
+     "splits": [
+      "45+1+84(x1)",
+      "48+1+81(x1)",
+      "50+1+79(x2)",
+      "65+1+64(x1)"
+     ]
+    }
+   ],
+   "perfect": {
+    "exact": 129,
+    "once": 129
+   }
+  },
+  "quoted": {
+   "table2Beyond": [
+    {
+     "disks": 18,
+     "radius": 225,
+     "optimal": 225
+    },
+    {
+     "disks": 19,
+     "radius": 257,
+     "optimal": 257
+    },
+    {
+     "disks": 20,
+     "radius": 294,
+     "optimal": 289
+    }
+   ],
+   "felner2007": [
+    {
+     "disks": 21,
+     "optimal": 321,
+     "radius": 341,
+     "width": 77536421184
+    },
+    {
+     "disks": 22,
+     "optimal": 385,
+     "radius": 395,
+     "width": 278269428090
+    }
+   ],
+   "beyond20": [
+    11243652,
+    289,
+    294
+   ]
+  }
+ },
+ "paths4": "6563711232",
+ "checks": [
+  {
+   "id": "A007664",
+   "source": "OEIS A007664",
+   "claim": "Frame–Stewart numbers, 4 pegs, n = 0..48",
+   "published": "0,1,3,5,9,13,17,25,33,41,49,65,81,97,113,129,161,193,225,257,289,321,385,449,513,577,641,705,769,897,1025,1153,1281,1409,1537,1665,1793,2049,2305,2561,2817,3073,3329,3585,3841,4097,4609,5121,5633",
+   "computed": "0,1,3,5,9,13,17,25,33,41,49,65,81,97,113,129,161,193,225,257,289,321,385,449,513,577,641,705,769,897,1025,1153,1281,1409,1537,1665,1793,2049,2305,2561,2817,3073,3329,3585,3841,4097,4609,5121,5633",
+   "ok": true
+  },
+  {
+   "id": "fs15",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "the optimal solution for 15 disks and 4 pegs is 129 moves",
+   "published": "129",
+   "computed": "129",
+   "ok": true
+  },
+  {
+   "id": "split-k",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "optimal k = n - \\left\\lfloor\\sqrt{2n+1}\\right\\rceil + 1 (checked n = 2..1000: number of n where it is not a minimiser)",
+   "published": "0",
+   "computed": "0",
+   "ok": true
+  },
+  {
+   "id": "A000225",
+   "source": "OEIS A000225",
+   "claim": "3 pegs: 2^n - 1 moves",
+   "published": "0,1,3,7,15,31,63,127,255,511,1023,2047,4095,8191,16383,32767",
+   "computed": "0,1,3,7,15,31,63,127,255,511,1023,2047,4095,8191,16383,32767",
+   "ok": true
+  },
+  {
+   "id": "unique-to-perfect",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "From every arbitrary distribution of disks, there is exactly one shortest way to move all disks onto one of the three pegs. (states with more than one, n <= 5)",
+   "published": "0",
+   "computed": "0",
+   "ok": true
+  },
+  {
+   "id": "one-or-two",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "Between every pair of arbitrary distributions of disks there are one or two different shortest paths. (largest number of shortest paths, n <= 5)",
+   "published": "2",
+   "computed": "2",
+   "ok": true
+  },
+  {
+   "id": "longest-to-perfect",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "From every arbitrary distribution of disks, there are one or two different longest non-self-crossing paths to move all disks to one of the three pegs. (largest count, n <= 3)",
+   "published": "2",
+   "computed": "2",
+   "ok": true
+  },
+  {
+   "id": "longest-any",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "Between every pair of arbitrary distributions of disks there are one or two different longest non-self-crossing paths. (largest count, n <= 3)",
+   "published": "2",
+   "computed": "2",
+   "ok": true
+  },
+  {
+   "id": "A125295",
+   "source": "Wikipedia (en) rev 1375651786; OEIS A125295",
+   "claim": "non-self-crossing paths between two perfect states, walked one by one (n = 1..3)",
+   "published": "2,12,1872",
+   "computed": "2,12,1872",
+   "ok": true
+  },
+  {
+   "id": "A125295-oeis",
+   "source": "OEIS A125295",
+   "claim": "Wikipedia list is OEIS A125295 from n = 1",
+   "published": "2,12,1872,6563711232",
+   "computed": "2,12,1872,6563711232",
+   "ok": true
+  },
+  {
+   "id": "avg-1",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "466/885 formula, n = 1: formula x 9^n equals the sum over all ordered pairs",
+   "published": "6",
+   "computed": "6",
+   "ok": true
+  },
+  {
+   "id": "avg-2",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "466/885 formula, n = 2: formula x 9^n equals the sum over all ordered pairs",
+   "published": "144",
+   "computed": "144",
+   "ok": true
+  },
+  {
+   "id": "avg-3",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "466/885 formula, n = 3: formula x 9^n equals the sum over all ordered pairs",
+   "published": "2838",
+   "computed": "2838",
+   "ok": true
+  },
+  {
+   "id": "avg-4",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "466/885 formula, n = 4: formula x 9^n equals the sum over all ordered pairs",
+   "published": "53160",
+   "computed": "53160",
+   "ok": true
+  },
+  {
+   "id": "avg-5",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "466/885 formula, n = 5: formula x 9^n equals the sum over all ordered pairs",
+   "published": "975678",
+   "computed": "975678",
+   "ok": true
+  },
+  {
+   "id": "avg-6",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "466/885 formula, n = 6: formula x 9^n equals the sum over all ordered pairs",
+   "published": "17734176",
+   "computed": "17734176",
+   "ok": true
+  },
+  {
+   "id": "avg-7",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "466/885 formula, n = 7: formula x 9^n equals the sum over all ordered pairs",
+   "published": "320782470",
+   "computed": "320782470",
+   "ok": true
+  },
+  {
+   "id": "linear-1",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "linear Hanoi, 1 disks: 3^n - 1 moves, every state used, all on B at (3^n - 1)/2",
+   "published": "2/3/1",
+   "computed": "2/3/1",
+   "ok": true
+  },
+  {
+   "id": "linear-2",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "linear Hanoi, 2 disks: 3^n - 1 moves, every state used, all on B at (3^n - 1)/2",
+   "published": "8/9/4",
+   "computed": "8/9/4",
+   "ok": true
+  },
+  {
+   "id": "linear-3",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "linear Hanoi, 3 disks: 3^n - 1 moves, every state used, all on B at (3^n - 1)/2",
+   "published": "26/27/13",
+   "computed": "26/27/13",
+   "ok": true
+  },
+  {
+   "id": "linear-4",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "linear Hanoi, 4 disks: 3^n - 1 moves, every state used, all on B at (3^n - 1)/2",
+   "published": "80/81/40",
+   "computed": "80/81/40",
+   "ok": true
+  },
+  {
+   "id": "linear-5",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "linear Hanoi, 5 disks: 3^n - 1 moves, every state used, all on B at (3^n - 1)/2",
+   "published": "242/243/121",
+   "computed": "242/243/121",
+   "ok": true
+  },
+  {
+   "id": "linear-6",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "linear Hanoi, 6 disks: 3^n - 1 moves, every state used, all on B at (3^n - 1)/2",
+   "published": "728/729/364",
+   "computed": "728/729/364",
+   "ok": true
+  },
+  {
+   "id": "linear-7",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "linear Hanoi, 7 disks: 3^n - 1 moves, every state used, all on B at (3^n - 1)/2",
+   "published": "2186/2187/1093",
+   "computed": "2186/2187/1093",
+   "ok": true
+  },
+  {
+   "id": "linear-8",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "linear Hanoi, 8 disks: 3^n - 1 moves, every state used, all on B at (3^n - 1)/2",
+   "published": "6560/6561/3280",
+   "computed": "6560/6561/3280",
+   "ok": true
+  },
+  {
+   "id": "A024023",
+   "source": "OEIS A024023",
+   "claim": "linear Hanoi lengths 3^n - 1, n = 1..8",
+   "published": "2,8,26,80,242,728,2186,6560",
+   "computed": "2,8,26,80,242,728,2186,6560",
+   "ok": true
+  },
+  {
+   "id": "walsh-216",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "binary rules, 8 disks after move 216: peg of disks 8..1",
+   "published": "22011000",
+   "computed": "22011000",
+   "ok": true
+  },
+  {
+   "id": "walsh-216-move",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "move 216 moves disk 4 from peg 2 to peg 1",
+   "published": "4 2->1",
+   "computed": "4 2->1",
+   "ok": true
+  },
+  {
+   "id": "bitwise-1",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "from (m & m - 1) % 3 to ((m | m - 1) + 1) % 3, pegs 1 and 2 swapped for even n (n = 1..12)",
+   "published": "yyyyyyyyyyyy",
+   "computed": "yyyyyyyyyyyy",
+   "ok": true
+  },
+  {
+   "id": "bitwise-2",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "from (m - (m & -m)) % 3 to (m + (m & -m)) % 3, pegs 1 and 2 swapped for even n (n = 1..12)",
+   "published": "yyyyyyyyyyyy",
+   "computed": "yyyyyyyyyyyy",
+   "ok": true
+  },
+  {
+   "id": "ruler",
+   "source": "Wikipedia (en) rev 1375651786; OEIS A001511",
+   "claim": "disk moved at each step is the ruler function",
+   "published": "1,2,1,3,1,2,1,4,1,2,1,3,1,2,1",
+   "computed": "1,2,1,3,1,2,1,4,1,2,1,3,1,2,1",
+   "ok": true
+  },
+  {
+   "id": "A001511",
+   "source": "OEIS A001511",
+   "claim": "ruler function, first 63 terms",
+   "published": "1,2,1,3,1,2,1,4,1,2,1,3,1,2,1,5,1,2,1,3,1,2,1,4,1,2,1,3,1,2,1,6,1,2,1,3,1,2,1,4,1,2,1,3,1,2,1,5,1,2,1,3,1,2,1,4,1,2,1,3,1,2,1",
+   "computed": "1,2,1,3,1,2,1,4,1,2,1,3,1,2,1,5,1,2,1,3,1,2,1,4,1,2,1,3,1,2,1,6,1,2,1,3,1,2,1,4,1,2,1,3,1,2,1,5,1,2,1,3,1,2,1,4,1,2,1,3,1,2,1",
+   "ok": true
+  },
+  {
+   "id": "longest-64",
+   "source": "Wikipedia (en) rev 1375651786",
+   "claim": "3^64 - 1 moves at one a second is more than 10^23 years (exponent of the year count)",
+   "published": "23",
+   "computed": "23",
+   "ok": true
+  },
+  {
+   "id": "ja-bitwise",
+   "source": "Wikipedia (ja) rev 109772663",
+   "claim": "「(n&(n-1))%3 番目の棒にある円盤を ((n|(n-1))+1)%3 番目の棒に移動する」 played on a board: where the tower ends (R = right peg 2, M = middle peg 1), disks = 1..12",
+   "published": "RRRRRRRRRRRR",
+   "computed": "RMRMRMRMRMRM",
+   "ok": false
+  },
+  {
+   "id": "ja-binary",
+   "source": "Wikipedia (ja) rev 109772663",
+   "claim": "6 rules reading each disk's peg from the binary move count (states that disagree, disks 1..10)",
+   "published": "0",
+   "computed": "0",
+   "ok": true
+  },
+  {
+   "id": "ja-2^64",
+   "source": "Wikipedia (ja) rev 109772663",
+   "claim": "2^64 - 1 = 18,446,744,073,709,551,615",
+   "published": "18446744073709551615",
+   "computed": "18446744073709551615",
+   "ok": true
+  },
+  {
+   "id": "ja-years",
+   "source": "Wikipedia (ja) rev 109772663",
+   "claim": "at one move a second, about 5845 hundred-million years (億年, Julian years)",
+   "published": "5845",
+   "computed": "5845",
+   "ok": true
+  },
+  {
+   "id": "ja-2n-1",
+   "source": "Wikipedia (ja) rev 109772663",
+   "claim": "more pegs than disks: 2n - 1 moves (pegs 4..6, every n < pegs; failures listed)",
+   "published": "none",
+   "computed": "none",
+   "ok": true
+  },
+  {
+   "id": "ja-cycle",
+   "source": "Wikipedia (ja) rev 109772663",
+   "claim": "smallest disk cycles B→C→A→B for even n, C→B→A→C for odd n",
+   "published": "B→C→A→B C→B→A→C",
+   "computed": "B→C→A→B C→B→A→C",
+   "ok": true
+  },
+  {
+   "id": "korf-t2-1",
+   "source": "Korf 2004, Table 2",
+   "claim": "1 disks: depth, states, width of a complete search from one peg",
+   "published": "1 4 3",
+   "computed": "1 4 3",
+   "ok": true
+  },
+  {
+   "id": "korf-t3-1",
+   "source": "Korf 2004, Table 3",
+   "claim": "1 disks: moves, states up to half depth (rounded up), width there, one per relabelling of the free pegs",
+   "published": "1 1 1",
+   "computed": "1 2 1",
+   "ok": false
+  },
+  {
+   "id": "korf-t2-2",
+   "source": "Korf 2004, Table 2",
+   "claim": "2 disks: depth, states, width of a complete search from one peg",
+   "published": "3 16 6",
+   "computed": "3 16 6",
+   "ok": true
+  },
+  {
+   "id": "korf-t3-2",
+   "source": "Korf 2004, Table 3",
+   "claim": "2 disks: moves, states up to half depth (rounded up), width there, one per relabelling of the free pegs",
+   "published": "3 3 1",
+   "computed": "3 3 1",
+   "ok": true
+  },
+  {
+   "id": "korf-t2-3",
+   "source": "Korf 2004, Table 2",
+   "claim": "3 disks: depth, states, width of a complete search from one peg",
+   "published": "5 64 30",
+   "computed": "5 64 30",
+   "ok": true
+  },
+  {
+   "id": "korf-t3-3",
+   "source": "Korf 2004, Table 3",
+   "claim": "3 disks: moves, states up to half depth (rounded up), width there, one per relabelling of the free pegs",
+   "published": "5 6 3",
+   "computed": "5 6 3",
+   "ok": true
+  },
+  {
+   "id": "korf-t2-4",
+   "source": "Korf 2004, Table 2",
+   "claim": "4 disks: depth, states, width of a complete search from one peg",
+   "published": "9 256 72",
+   "computed": "9 256 72",
+   "ok": true
+  },
+  {
+   "id": "korf-t3-4",
+   "source": "Korf 2004, Table 3",
+   "claim": "4 disks: moves, states up to half depth (rounded up), width there, one per relabelling of the free pegs",
+   "published": "9 18 7",
+   "computed": "9 18 7",
+   "ok": true
+  },
+  {
+   "id": "korf-t2-5",
+   "source": "Korf 2004, Table 2",
+   "claim": "5 disks: depth, states, width of a complete search from one peg",
+   "published": "13 1024 282",
+   "computed": "13 1024 282",
+   "ok": true
+  },
+  {
+   "id": "korf-t3-5",
+   "source": "Korf 2004, Table 3",
+   "claim": "5 disks: moves, states up to half depth (rounded up), width there, one per relabelling of the free pegs",
+   "published": "13 45 16",
+   "computed": "13 45 16",
+   "ok": true
+  },
+  {
+   "id": "korf-t2-6",
+   "source": "Korf 2004, Table 2",
+   "claim": "6 disks: depth, states, width of a complete search from one peg",
+   "published": "17 4096 918",
+   "computed": "17 4096 918",
+   "ok": true
+  },
+  {
+   "id": "korf-t3-6",
+   "source": "Korf 2004, Table 3",
+   "claim": "6 disks: moves, states up to half depth (rounded up), width there, one per relabelling of the free pegs",
+   "published": "17 105 36",
+   "computed": "17 105 36",
+   "ok": true
+  },
+  {
+   "id": "korf-t2-7",
+   "source": "Korf 2004, Table 2",
+   "claim": "7 disks: depth, states, width of a complete search from one peg",
+   "published": "25 16384 2568",
+   "computed": "25 16384 2568",
+   "ok": true
+  },
+  {
+   "id": "korf-t3-7",
+   "source": "Korf 2004, Table 3",
+   "claim": "7 disks: moves, states up to half depth (rounded up), width there, one per relabelling of the free pegs",
+   "published": "25 434 137",
+   "computed": "25 434 137",
+   "ok": true
+  },
+  {
+   "id": "korf-t2-8",
+   "source": "Korf 2004, Table 2",
+   "claim": "8 disks: depth, states, width of a complete search from one peg",
+   "published": "33 65536 9060",
+   "computed": "33 65536 9060",
+   "ok": true
+  },
+  {
+   "id": "korf-t3-8",
+   "source": "Korf 2004, Table 3",
+   "claim": "8 disks: moves, states up to half depth (rounded up), width there, one per relabelling of the free pegs",
+   "published": "33 1244 293",
+   "computed": "33 1244 293",
+   "ok": true
+  },
+  {
+   "id": "korf-t2-9",
+   "source": "Korf 2004, Table 2",
+   "claim": "9 disks: depth, states, width of a complete search from one peg",
+   "published": "41 262144 31638",
+   "computed": "41 262144 31638",
+   "ok": true
+  },
+  {
+   "id": "korf-t3-9",
+   "source": "Korf 2004, Table 3",
+   "claim": "9 disks: moves, states up to half depth (rounded up), width there, one per relabelling of the free pegs",
+   "published": "41 3335 562",
+   "computed": "41 3335 562",
+   "ok": true
+  },
+  {
+   "id": "korf-t2-10",
+   "source": "Korf 2004, Table 2",
+   "claim": "10 disks: depth, states, width of a complete search from one peg",
+   "published": "49 1048576 109890",
+   "computed": "49 1048576 109890",
+   "ok": true
+  },
+  {
+   "id": "korf-t3-10",
+   "source": "Korf 2004, Table 3",
+   "claim": "10 disks: moves, states up to half depth (rounded up), width there, one per relabelling of the free pegs",
+   "published": "49 8469 1780",
+   "computed": "49 8469 1780",
+   "ok": true
+  },
+  {
+   "id": "korf-t2-11",
+   "source": "Korf 2004, Table 2",
+   "claim": "11 disks: depth, states, width of a complete search from one peg",
+   "published": "65 4194304 335292",
+   "computed": "65 4194304 335292",
+   "ok": true
+  },
+  {
+   "id": "korf-t3-11",
+   "source": "Korf 2004, Table 3",
+   "claim": "11 disks: moves, states up to half depth (rounded up), width there, one per relabelling of the free pegs",
+   "published": "65 39631 6640",
+   "computed": "65 39631 6640",
+   "ok": true
+  },
+  {
+   "id": "korf-t2-12",
+   "source": "Korf 2004, Table 2",
+   "claim": "12 disks: depth, states, width of a complete search from one peg",
+   "published": "81 16777216 1174230",
+   "computed": "81 16777216 1174230",
+   "ok": true
+  },
+  {
+   "id": "korf-t3-12",
+   "source": "Korf 2004, Table 3",
+   "claim": "12 disks: moves, states up to half depth (rounded up), width there, one per relabelling of the free pegs",
+   "published": "81 139624 21187",
+   "computed": "81 139624 21187",
+   "ok": true
+  },
+  {
+   "id": "korf-t2-13",
+   "source": "Korf 2004, Table 2",
+   "claim": "13 disks: depth, states, width of a complete search from one peg",
+   "published": "97 67108864 4145196",
+   "computed": "97 67108864 4145196",
+   "ok": true
+  },
+  {
+   "id": "korf-t3-13",
+   "source": "Korf 2004, Table 3",
+   "claim": "13 disks: moves, states up to half depth (rounded up), width there, one per relabelling of the free pegs",
+   "published": "97 371053 50777",
+   "computed": "97 371053 50777",
+   "ok": true
+  },
+  {
+   "id": "korf-t2-14",
+   "source": "Korf 2004, Table 2",
+   "claim": "14 disks: depth, states, width of a complete search from one peg",
+   "published": "113 268435456 14368482",
+   "computed": "113 268435456 14368482",
+   "ok": true
+  },
+  {
+   "id": "korf-t3-14",
+   "source": "Korf 2004, Table 3",
+   "claim": "14 disks: moves, states up to half depth (rounded up), width there, one per relabelling of the free pegs",
+   "published": "113 933286 86944",
+   "computed": "113 933286 86944",
+   "ok": true
+  },
+  {
+   "id": "korf-t2-15",
+   "source": "Korf 2004, Table 2",
+   "claim": "15 disks: depth, states, width of a complete search from one peg",
+   "published": "130 1073741824 48286104",
+   "computed": "130 1073741824 48286104",
+   "ok": true
+  },
+  {
+   "id": "korf-t3-15",
+   "source": "Korf 2004, Table 3",
+   "claim": "15 disks: moves, states up to half depth (rounded up), width there, one per relabelling of the free pegs",
+   "published": "129 2407813 256579",
+   "computed": "129 2407813 256579",
+   "ok": true
+  },
+  {
+   "id": "korf-t2-16",
+   "source": "Korf 2004, Table 2",
+   "claim": "16 disks: depth, states, width of a complete search from one peg",
+   "published": "161 4294967296 162989898",
+   "computed": "161 4294967296 162989898",
+   "ok": true
+  },
+  {
+   "id": "korf-t3-16",
+   "source": "Korf 2004, Table 3",
+   "claim": "16 disks: moves, states up to half depth (rounded up), width there, one per relabelling of the free pegs",
+   "published": "161 11682622 965931",
+   "computed": "161 11682622 965931",
+   "ok": true
+  },
+  {
+   "id": "korf-t2-17",
+   "source": "Korf 2004, Table 2",
+   "claim": "17 disks: depth, states, width of a complete search from one peg",
+   "published": "193 17179869184 572584122",
+   "computed": "193 17179869184 572584122",
+   "ok": true
+  },
+  {
+   "id": "korf-t3-17",
+   "source": "Korf 2004, Table 3",
+   "claim": "17 disks: moves, states up to half depth (rounded up), width there, one per relabelling of the free pegs",
+   "published": "193 45800496 3278853",
+   "computed": "193 45800496 3278853",
+   "ok": true
+  },
+  {
+   "id": "A382111",
+   "source": "OEIS A382111",
+   "claim": "radius from all disks on one peg, n = 0..17",
+   "published": "0,1,3,5,9,13,17,25,33,41,49,65,81,97,113,130,161,193",
+   "computed": "0,1,3,5,9,13,17,25,33,41,49,65,81,97,113,130,161,193",
+   "ok": true
+  },
+  {
+   "id": "A007664-bfs",
+   "source": "OEIS A007664",
+   "claim": "Frame–Stewart equals the true optimum found by complete search, n = 0..17",
+   "published": "0,1,3,5,9,13,17,25,33,41,49,65,81,97,113,129,161,193",
+   "computed": "0,1,3,5,9,13,17,25,33,41,49,65,81,97,113,129,161,193",
+   "ok": true
+  },
+  {
+   "id": "anomaly-2004",
+   "source": "Korf 2004, text",
+   "claim": "15 disks: optimal solution, states at the radius, radius",
+   "published": "129 588 130",
+   "computed": "129 588 130",
+   "ok": true
+  },
+  {
+   "id": "anomaly-2007",
+   "source": "Korf & Felner 2007, text",
+   "claim": "15 disks: moves needed, states at the radius, radius",
+   "published": "129 588 130",
+   "computed": "129 588 130",
+   "ok": true
+  },
+  {
+   "id": "A125295-4",
+   "source": "Wikipedia (en); OEIS A125295",
+   "claim": "non-self-crossing paths for 4 disks, walked one by one by tools/paths.c",
+   "published": "6563711232",
+   "computed": "6563711232",
+   "ok": true
+  }
+ ]
+}

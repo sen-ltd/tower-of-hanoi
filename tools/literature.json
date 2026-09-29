@@ -1,0 +1,737 @@
+{
+ "fetched": "2026-09-29",
+ "wikipediaEn": {
+  "source": "https://en.wikipedia.org/wiki/Tower_of_Hanoi",
+  "revision": 1375651786,
+  "revisionTimestamp": "2026-09-19T03:55:10Z",
+  "frameStewart15": 129,
+  "optimalKSentence": "n - \\left\\lfloor\\sqrt{2n+1}\\right\\rceil + 1",
+  "nonSelfCrossing": [
+   2,
+   12,
+   1872,
+   6563711232
+  ],
+  "averageFormula": ":<math> \\frac{466}{885}\\cdot 2^n - \\frac{1}{3} - \\frac{3}{5}\\cdot \\left(\\frac{1}{3}\\right)^n +\n\\left(\\frac{12}{59} + \\frac{18}{1003}\\sqrt{17}\\right)\\left(\\frac{5+\\sqrt{17}}{18}\\right)^n +\n\\left(\\frac{12}{59} - \\frac{18}{1003}\\sqrt{17}\\right)\\left(\\frac{5-\\sqrt{17}}{18}\\right)^n.</math>",
+  "averageFractions": [
+   [
+    466,
+    885
+   ],
+   [
+    1,
+    3
+   ],
+   [
+    3,
+    5
+   ],
+   [
+    1,
+    3
+   ],
+   [
+    12,
+    59
+   ],
+   [
+    18,
+    1003
+   ],
+   [
+    12,
+    59
+   ],
+   [
+    18,
+    1003
+   ]
+  ],
+  "linearMovesSentence": "moving a stack of ''n'' disks from peg A to peg C takes 3<sup>''n''</sup> − 1 moves",
+  "linearHalfwaySentence": "The position with all disks at peg B is reached halfway, i.e. after (3<sup>''n''</sup> − 1) / 2 moves",
+  "walsh216": {
+   "disks": 8,
+   "move": 216,
+   "pegOfDisk": {
+    "1": 0,
+    "2": 0,
+    "3": 0,
+    "4": 1,
+    "5": 1,
+    "6": 0,
+    "7": 2,
+    "8": 2
+   },
+   "movedDisk": 4,
+   "movedFrom": 2,
+   "movedTo": 1
+  },
+  "bitFormulas": [
+   {
+    "from": "(m & m - 1) % 3",
+    "to": "((m | m - 1) + 1) % 3"
+   },
+   {
+    "from": "(m - (m & -m)) % 3",
+    "to": "(m + (m & -m)) % 3"
+   }
+  ],
+  "bitParitySentence": "These hold for odd ''n'' puzzles.  For even ''n'' puzzles, the output references to pegs 1 and 2 need to be reversed.",
+  "rulerSequence": [
+   1,
+   2,
+   1,
+   3,
+   1,
+   2,
+   1,
+   4,
+   1,
+   2,
+   1,
+   3,
+   1,
+   2,
+   1
+  ],
+  "longestSolutionSentence": "it will take them 3<sup>64</sup>&nbsp;−&nbsp;1 moves, or more than 10<sup>23</sup> years",
+  "longestSolutionYearsExponent": 23,
+  "graphClaims": [
+   "From every arbitrary distribution of disks, there is exactly one shortest way to move all disks onto one of the three pegs.",
+   "Between every pair of arbitrary distributions of disks there are one or two different shortest paths.",
+   "From every arbitrary distribution of disks, there are one or two different longest non-self-crossing paths to move all disks to one of the three pegs.",
+   "Between every pair of arbitrary distributions of disks there are one or two different longest non-self-crossing paths."
+  ]
+ },
+ "wikipediaJa": {
+  "source": "https://ja.wikipedia.org/wiki/ハノイの塔",
+  "revision": 109772663,
+  "revisionTimestamp": "2026-06-01T23:05:50Z",
+  "goalSentence": "すべての円盤を右端の杭に移動させられれば完成",
+  "binarySetup": "すべて左端の棒にある状態からすべて右端の棒に移動させる場合、各円盤の位置は以下のように求められる。",
+  "binaryRules": [
+   "最上位が0のとき、一番大きい円盤がまだ動いておらず、1の時には移動済みである。",
+   "下から[[奇数]]番目の場合、一回り大きい物の右隣にある。",
+   "下から[[偶数]]番目の場合、一回り大きい物の左隣にある。",
+   "下から奇数番目の場合、一回り大きい物の左隣にある。",
+   "下から偶数番目の場合、一回り大きい物の右隣にある。",
+   "左端の棒の左隣は右端、右端の棒の右隣は左端とする。"
+  ],
+  "bitFormula": "「(n&(n-1))%3 番目の棒にある円盤を ((n|(n-1))+1)%3 番目の棒に移動する」",
+  "bitFormulaFrom": "(n&(n-1))%3",
+  "bitFormulaTo": "((n|(n-1))+1)%3",
+  "mentionsParity": false,
+  "smallestCycleEven": "B→C→A→B(''n''が偶数の場合)",
+  "smallestCycleOdd": "C→B→A→C(''n''が奇数の場合)",
+  "moves64": "18446744073709551615",
+  "years64": "5845",
+  "manyPegsSentence": "<math>m>n</math>のとき、<br>\n<math>T(n)=2n-1</math>"
+ },
+ "oeis": {
+  "A007664": {
+   "id": "A007664",
+   "name": "Reve's puzzle: number of moves needed to solve the Towers of Hanoi puzzle with 4 pegs and n disks, according to the Frame-Stewart algorithm.",
+   "offset": 0,
+   "data": [
+    0,
+    1,
+    3,
+    5,
+    9,
+    13,
+    17,
+    25,
+    33,
+    41,
+    49,
+    65,
+    81,
+    97,
+    113,
+    129,
+    161,
+    193,
+    225,
+    257,
+    289,
+    321,
+    385,
+    449,
+    513,
+    577,
+    641,
+    705,
+    769,
+    897,
+    1025,
+    1153,
+    1281,
+    1409,
+    1537,
+    1665,
+    1793,
+    2049,
+    2305,
+    2561,
+    2817,
+    3073,
+    3329,
+    3585,
+    3841,
+    4097,
+    4609,
+    5121,
+    5633
+   ]
+  },
+  "A382111": {
+   "id": "A382111",
+   "name": "Maximum number of moves required to transition from the initial configuration (all disks on the first peg) to any possible configuration in the Towers of Hanoi puzzle with 4 pegs and n disks.",
+   "offset": 0,
+   "data": [
+    0,
+    1,
+    3,
+    5,
+    9,
+    13,
+    17,
+    25,
+    33,
+    41,
+    49,
+    65,
+    81,
+    97,
+    113,
+    130,
+    161,
+    193,
+    225,
+    257,
+    294
+   ]
+  },
+  "A125295": {
+   "id": "A125295",
+   "name": "Number of different non-self-crossing ways of moving a tower of Hanoi from one peg onto another peg.",
+   "offset": 0,
+   "data": [
+    1,
+    2,
+    12,
+    1872,
+    6563711232,
+    2.8277981017180503e+29,
+    2.2612323802416303e+88
+   ],
+   "dataExact": [
+    "1",
+    "2",
+    "12",
+    "1872",
+    "6563711232",
+    "282779810171805015122254036992",
+    "22612323802416302740572466532905158028496454353087246911545156210129751385945830223511552"
+   ]
+  },
+  "A000225": {
+   "id": "A000225",
+   "name": "a(n) = 2^n - 1. (Sometimes called Mersenne numbers, although that name is usually reserved for A001348.)",
+   "offset": 0,
+   "data": [
+    0,
+    1,
+    3,
+    7,
+    15,
+    31,
+    63,
+    127,
+    255,
+    511,
+    1023,
+    2047,
+    4095,
+    8191,
+    16383,
+    32767,
+    65535,
+    131071,
+    262143,
+    524287,
+    1048575,
+    2097151,
+    4194303,
+    8388607,
+    16777215,
+    33554431,
+    67108863,
+    134217727,
+    268435455,
+    536870911,
+    1073741823,
+    2147483647,
+    4294967295,
+    8589934591
+   ]
+  },
+  "A001511": {
+   "id": "A001511",
+   "name": "The ruler function: exponent of the highest power of 2 dividing 2n. Equivalently, the 2-adic valuation of 2n.",
+   "offset": 1,
+   "data": [
+    1,
+    2,
+    1,
+    3,
+    1,
+    2,
+    1,
+    4,
+    1,
+    2,
+    1,
+    3,
+    1,
+    2,
+    1,
+    5,
+    1,
+    2,
+    1,
+    3,
+    1,
+    2,
+    1,
+    4,
+    1,
+    2,
+    1,
+    3,
+    1,
+    2,
+    1,
+    6,
+    1,
+    2,
+    1,
+    3,
+    1,
+    2,
+    1,
+    4,
+    1,
+    2,
+    1,
+    3,
+    1,
+    2,
+    1,
+    5,
+    1,
+    2,
+    1,
+    3,
+    1,
+    2,
+    1,
+    4,
+    1,
+    2,
+    1,
+    3,
+    1,
+    2,
+    1,
+    7,
+    1,
+    2,
+    1,
+    3,
+    1,
+    2,
+    1,
+    4,
+    1,
+    2,
+    1,
+    3,
+    1,
+    2,
+    1,
+    5,
+    1,
+    2,
+    1,
+    3,
+    1,
+    2,
+    1,
+    4,
+    1,
+    2,
+    1,
+    3,
+    1,
+    2,
+    1,
+    6,
+    1,
+    2,
+    1,
+    3,
+    1,
+    2,
+    1,
+    4,
+    1
+   ]
+  },
+  "A024023": {
+   "id": "A024023",
+   "name": "a(n) = 3^n - 1.",
+   "offset": 0,
+   "data": [
+    0,
+    2,
+    8,
+    26,
+    80,
+    242,
+    728,
+    2186,
+    6560,
+    19682,
+    59048,
+    177146,
+    531440,
+    1594322,
+    4782968,
+    14348906,
+    43046720,
+    129140162,
+    387420488,
+    1162261466,
+    3486784400,
+    10460353202,
+    31381059608,
+    94143178826,
+    282429536480,
+    847288609442,
+    2541865828328,
+    7625597484986,
+    22876792454960
+   ]
+  }
+ },
+ "korf2004": {
+  "source": "https://cdn.aaai.org/AAAI/2004/AAAI04-103.pdf",
+  "table2": [
+   {
+    "disks": 1,
+    "depth": 1,
+    "states": 4,
+    "width": 3
+   },
+   {
+    "disks": 2,
+    "depth": 3,
+    "states": 16,
+    "width": 6
+   },
+   {
+    "disks": 3,
+    "depth": 5,
+    "states": 64,
+    "width": 30
+   },
+   {
+    "disks": 4,
+    "depth": 9,
+    "states": 256,
+    "width": 72
+   },
+   {
+    "disks": 5,
+    "depth": 13,
+    "states": 1024,
+    "width": 282
+   },
+   {
+    "disks": 6,
+    "depth": 17,
+    "states": 4096,
+    "width": 918
+   },
+   {
+    "disks": 7,
+    "depth": 25,
+    "states": 16384,
+    "width": 2568
+   },
+   {
+    "disks": 8,
+    "depth": 33,
+    "states": 65536,
+    "width": 9060
+   },
+   {
+    "disks": 9,
+    "depth": 41,
+    "states": 262144,
+    "width": 31638
+   },
+   {
+    "disks": 10,
+    "depth": 49,
+    "states": 1048576,
+    "width": 109890
+   },
+   {
+    "disks": 11,
+    "depth": 65,
+    "states": 4194304,
+    "width": 335292
+   },
+   {
+    "disks": 12,
+    "depth": 81,
+    "states": 16777216,
+    "width": 1174230
+   },
+   {
+    "disks": 13,
+    "depth": 97,
+    "states": 67108864,
+    "width": 4145196
+   },
+   {
+    "disks": 14,
+    "depth": 113,
+    "states": 268435456,
+    "width": 14368482
+   },
+   {
+    "disks": 15,
+    "depth": 130,
+    "states": 1073741824,
+    "width": 48286104
+   },
+   {
+    "disks": 16,
+    "depth": 161,
+    "states": 4294967296,
+    "width": 162989898
+   },
+   {
+    "disks": 17,
+    "depth": 193,
+    "states": 17179869184,
+    "width": 572584122
+   },
+   {
+    "disks": 18,
+    "depth": 225,
+    "states": 68719476736,
+    "width": 1994549634
+   },
+   {
+    "disks": 19,
+    "depth": 257,
+    "states": 274877906944,
+    "width": 6948258804
+   },
+   {
+    "disks": 20,
+    "depth": 294,
+    "states": 1099511627776,
+    "width": 23513260170
+   }
+  ],
+  "table3": [
+   {
+    "disks": 1,
+    "moves": 1,
+    "states": 1,
+    "width": 1
+   },
+   {
+    "disks": 2,
+    "moves": 3,
+    "states": 3,
+    "width": 1
+   },
+   {
+    "disks": 3,
+    "moves": 5,
+    "states": 6,
+    "width": 3
+   },
+   {
+    "disks": 4,
+    "moves": 9,
+    "states": 18,
+    "width": 7
+   },
+   {
+    "disks": 5,
+    "moves": 13,
+    "states": 45,
+    "width": 16
+   },
+   {
+    "disks": 6,
+    "moves": 17,
+    "states": 105,
+    "width": 36
+   },
+   {
+    "disks": 7,
+    "moves": 25,
+    "states": 434,
+    "width": 137
+   },
+   {
+    "disks": 8,
+    "moves": 33,
+    "states": 1244,
+    "width": 293
+   },
+   {
+    "disks": 9,
+    "moves": 41,
+    "states": 3335,
+    "width": 562
+   },
+   {
+    "disks": 10,
+    "moves": 49,
+    "states": 8469,
+    "width": 1780
+   },
+   {
+    "disks": 11,
+    "moves": 65,
+    "states": 39631,
+    "width": 6640
+   },
+   {
+    "disks": 12,
+    "moves": 81,
+    "states": 139624,
+    "width": 21187
+   },
+   {
+    "disks": 13,
+    "moves": 97,
+    "states": 371053,
+    "width": 50777
+   },
+   {
+    "disks": 14,
+    "moves": 113,
+    "states": 933286,
+    "width": 86944
+   },
+   {
+    "disks": 15,
+    "moves": 129,
+    "states": 2407813,
+    "width": 256579
+   },
+   {
+    "disks": 16,
+    "moves": 161,
+    "states": 11682622,
+    "width": 965931
+   },
+   {
+    "disks": 17,
+    "moves": 193,
+    "states": 45800496,
+    "width": 3278853
+   },
+   {
+    "disks": 18,
+    "moves": 225,
+    "states": 145656379,
+    "width": 10004107
+   },
+   {
+    "disks": 19,
+    "moves": 257,
+    "states": 379925343,
+    "width": 24317501
+   },
+   {
+    "disks": 20,
+    "moves": 289,
+    "states": 957046489,
+    "width": 45544033
+   },
+   {
+    "disks": 21,
+    "moves": 321,
+    "states": 2394213892,
+    "width": 133985287
+   },
+   {
+    "disks": 22,
+    "moves": 385,
+    "states": 12024012134,
+    "width": 547563876
+   },
+   {
+    "disks": 23,
+    "moves": 449,
+    "states": 50661772967,
+    "width": 2006448775
+   },
+   {
+    "disks": 24,
+    "moves": 513,
+    "states": 178693859657,
+    "width": 6364114392
+   }
+  ],
+  "anomaly15": [
+   129,
+   588,
+   130
+  ],
+  "beyond20": [
+   11243652,
+   289,
+   294
+  ],
+  "noExplanation": "We have no explanation for this surprising anomaly, and leave it for future work."
+ },
+ "korfFelner2007": {
+  "source": "https://www.ijcai.org/Proceedings/07/Papers/374.pdf",
+  "anomaly15": [
+   129,
+   588,
+   130
+  ],
+  "anomaly20": [
+   289,
+   294
+  ],
+  "table": [
+   {
+    "disks": 21,
+    "optimal": 321,
+    "radius": 341,
+    "width": 77536421184
+   },
+   {
+    "disks": 22,
+    "optimal": 385,
+    "radius": 395,
+    "width": 278269428090
+   }
+  ],
+  "conjecture": "20"
+ }
+}
