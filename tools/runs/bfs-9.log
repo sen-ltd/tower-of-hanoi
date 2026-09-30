@@ -1,0 +1,48 @@
+disks 9 states 262144
+depth 0 1 1
+depth 1 3 1
+depth 2 6 1
+depth 3 12 3
+depth 4 30 5
+depth 5 30 7
+depth 6 66 11
+depth 7 96 16
+depth 8 126 24
+depth 9 210 36
+depth 10 330 55
+depth 11 318 56
+depth 12 462 81
+depth 13 816 137
+depth 14 1032 172
+depth 15 936 162
+depth 16 1044 183
+depth 17 1752 293
+depth 18 2610 435
+depth 19 3036 506
+depth 20 3528 588
+depth 21 3306 562
+depth 22 4578 779
+depth 23 6318 1056
+depth 24 9108 1519
+depth 25 10668 1779
+depth 26 11550 1925
+depth 27 11760 1969
+depth 28 13158 2213
+depth 29 16548 2775
+depth 30 22434 3752
+depth 31 29676 4949
+depth 32 31638 5274
+depth 33 30420 5073
+depth 34 21840 3651
+depth 35 13092 2208
+depth 36 6486 1106
+depth 37 2376 434
+depth 38 564 114
+depth 39 144 28
+depth 40 30 6
+depth 41 6 2
+radius 41
+last 6
+width 31638
+reached 262144
+goal 41
