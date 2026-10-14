@@ -82,3 +82,10 @@ cc -O3 -o /tmp/anomaly tools/anomaly.c -lpthread
 ## License
 
 MIT
+
+<!-- sen-publish:links -->
+## Links
+
+- 🌐 Demo: https://sen.ltd/portfolio/tower-of-hanoi/
+- 📝 記事: https://qiita.com/sen-ltd/items/c4fe077be99674ef7a97
+<!-- /sen-publish:links -->
